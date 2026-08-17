@@ -1,5 +1,5 @@
 local lpeg = require "lpeg"
-
+ 
 -- matches a word followed by end-of-string
 p = lpeg.R"az"^1 * -1
 
