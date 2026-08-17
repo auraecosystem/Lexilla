@@ -6,4 +6,3 @@
     QFunctionPointer fn = QLibrary::resolve("lexilla", "CreateLexer");
     void *lexCpp = ((CreateLexerFn)fn)("cpp");
     Call(SCI_SETILEXER, 0, (sptr_t)(void *)lexCpp);
-
