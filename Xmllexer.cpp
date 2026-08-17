@@ -1,0 +1,8 @@
+int GetLexerCount()
+void GetLexerName(unsigned int index, char *name, int buflength)
+LexerFactoryFunction GetLexerFactory(unsigned int index)
+ILexer5 *CreateLexer(const char *name)
+const char *LexerNameFromID(int identifier)
+const char *GetLibraryPropertyNames()
+void SetLibraryProperty(const char *key, const char *value)
+const char *GetNameSpace()
