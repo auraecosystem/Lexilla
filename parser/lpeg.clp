@@ -1,4 +1,5 @@
 local lpeg = require("lpeg")
+
 -- Lexical Definitions
 local Space    = lpeg.S(" \n\t")^0
 local Number   = lpeg.C(lpeg.P("-")^-1 * lpeg.R("09")^1 * (lpeg.P(".") * lpeg.R("09")^1)^-1) * Space
