@@ -44,3 +44,4 @@ local function parse_and_eval_ast(expr)
 end
 
 print(parse_and_eval_ast("3 + 5*9 / (1+1) - 12")) --> 13.5
+
