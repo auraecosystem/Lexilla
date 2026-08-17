@@ -1,3 +1,4 @@
-S <- 'a' B / 'b' A / ''
-  A <- 'a' S / 'b' A A
-  B <- 'b' S / 'a' B B
+local Cp = lpeg.Cp()
+function anywhere (p)
+  return (1 - lpeg.P(p))^0 * Cp * p * Cp
+end
