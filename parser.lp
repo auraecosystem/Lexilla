@@ -7,7 +7,7 @@ parse_asp(String, AST) :-
     phrase(asp_program(AST), Codes).
 
 % ------------------------------------------------------------------------------
-% DCG Grammar Rules 
+% DCG Grammar Rules
 % ------------------------------------------------------------------------------
 
 % Program: zero or more statements separated by whitespace
