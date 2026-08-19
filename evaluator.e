@@ -34,4 +34,3 @@ local function eval_direct(expr)
 end
 
 print(eval_direct("3 + 5*9 / (1+1) - 12")) --> 13.5
-
