@@ -1,4 +1,4 @@
-local lpeg = require("lpeg") 
+local lpeg = require("lpeg")
 lpeg.locale(lpeg) -- Populates lpeg table with character classes (alpha, space, etc.)
 
 --------------------------------------------------------------------------------
